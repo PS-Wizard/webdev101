@@ -1,0 +1,64 @@
+@import "tailwindcss";
+@plugin "./tw-betweeny.ts";
+@plugin "@tailwindcss/typography";
+
+html,body {
+    background-color:#000;
+    color:#fff;
+    font-family: 'Geist', sans-serif;
+}
+
+@font-face {
+    font-family: 'Geist';
+    src: url('/fonts/Geist.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graffity';
+    src: url('/fonts/Graffity-fill.otf') format('opentype');
+}
+
+.geist {
+    font-family:"Geist",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smooth: always;
+}
+
+.graffity {
+    font-family:"Graffity", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smooth: always;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Absans';
+    src: url('/fonts/Absans-Regular.woff2') format('woff2');
+}
+.absans {
+    font-family: 'Absans';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smooth: always;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LTSuperiorMono';
+    src: url('/fonts/LTSuperiorMono-Regular.otf') format('opentype');
+}
+
+.superiormono{
+    font-family: 'LTSuperiorMono';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smooth: always;
+    font-weight: normal;
+    font-style: normal;
+}
