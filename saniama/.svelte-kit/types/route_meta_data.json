@@ -1,0 +1,13 @@
+{
+	"/": [],
+	"/api/products": [
+		"src/routes/api/products/+server.ts"
+	],
+	"/api/products/[id]": [
+		"src/routes/api/products/[id]/+server.ts"
+	],
+	"/auth/login": [],
+	"/auth/signup": [],
+	"/products": [],
+	"/products/[id]": []
+}
