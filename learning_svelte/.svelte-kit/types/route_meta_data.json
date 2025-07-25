@@ -1,0 +1,17 @@
+{
+	"/": [
+		"src/routes/+page.server.ts"
+	],
+	"/animation": [
+		"src/routes/animation/+page.server.ts"
+	],
+	"/animation/about": [
+		"src/routes/animation/about/+page.server.ts"
+	],
+	"/errors/expected": [
+		"src/routes/errors/expected/+page.server.js"
+	],
+	"/errors/unexpected": [
+		"src/routes/errors/unexpected/+page.server.js"
+	]
+}

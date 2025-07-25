@@ -32,11 +32,6 @@
         >
             ${(price - (discounts / 100) * price).toFixed(2)}
         </h5>
-        <p
-            class="group-hover:text-white group-hover:bg-black bg-white text-black"
-        >
-            {stock} Stock
-        </p>
         <Size {sizes} />
     </div>
 </article>
